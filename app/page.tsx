@@ -123,7 +123,7 @@ export default function Home() {
           <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-700 bg-slate-900">
             <iframe 
               className="absolute top-0 left-0 w-full h-full"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=abcdefgh" 
+              src="https://www.youtube.com/embed/CE-C8H6xoLg?si=zg5utH3EFGzdZ3cP" 
               title="Devocional da Semana" 
               frameBorder="0" 
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -143,14 +143,14 @@ export default function Home() {
               <h3 className="font-bold text-2xl text-sky-700 mb-2">Culto de Celebração</h3>
               <p className="text-slate-600 mb-4">Um tempo especial de adoração e palavra para toda a família.</p>
               <p className="font-semibold text-amber-800 flex items-center gap-2">
-                <span className="text-xl">📅</span> Domingos, às 18h30
+                <span className="text-xl">📅</span> Domingos, às 19h30
               </p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
               <h3 className="font-bold text-2xl text-sky-700 mb-2">Círculo de Oração</h3>
               <p className="text-slate-600 mb-4">Encontro focado em intercessão, renovação espiritual e comunhão.</p>
               <p className="font-semibold text-amber-800 flex items-center gap-2">
-                <span className="text-xl">📅</span> Quartas-feiras, às 19h30
+                <span className="text-xl">📅</span> Segundas-feiras, às 19h30
               </p>
             </div>
           </div>
