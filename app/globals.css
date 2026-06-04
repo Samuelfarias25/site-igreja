@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f8fafc; /* Um tom de fundo muito leve e limpo */
+  color: #0f172a;
+}
