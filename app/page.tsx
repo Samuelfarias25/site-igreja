@@ -92,7 +92,7 @@ export default function Home() {
         </h1>
 
         <p className="text-xl sm:text-3xl md:text-4xl text-amber-800 italic max-w-3xl font-serif leading-relaxed">
-          "Eu sei em quem tenho crido."
+          "Para onde iremos, Senhor? Só tu tens palavra de Vida Eterna." - João 6:68
         </p>
 
         <div className="mt-12 flex flex-col sm:flex-row gap-4">
@@ -189,20 +189,20 @@ export default function Home() {
             </p>
           </div>
 
-          <form className="bg-white p-8 rounded-3xl shadow-sm border border-slate-200">
+          <form action="https://formspree.io/f/mdavwdko" method="POST" className="bg-white p-8 rounded-3xl shadow-sm border border-slate-200">
             <div className="mb-6">
               <label htmlFor="nome" className="block text-slate-700 font-semibold mb-2">Nome Completo</label>
-              <input type="text" id="nome" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="Digite seu nome" required />
+              <input type="text" id="nome" name="Nome" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="Digite seu nome" required />
             </div>
 
             <div className="mb-6">
               <label htmlFor="telefone" className="block text-slate-700 font-semibold mb-2">WhatsApp / Telefone</label>
-              <input type="tel" id="telefone" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="(84) 90000-0000" required />
+              <input type="tel" id="telefone" name="Telefone" className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="(84) 90000-0000" required />
             </div>
 
             <div className="mb-8">
               <label htmlFor="mensagem" className="block text-slate-700 font-semibold mb-2">Mensagem (Opcional)</label>
-              <textarea id="mensagem" rows={4} className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="Gostaria de compartilhar algo conosco?"></textarea>
+              <textarea id="mensagem" name="Mensagem" rows={4} className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="Gostaria de compartilhar algo conosco?"></textarea>
             </div>
 
             <button type="submit" className="w-full bg-amber-700 hover:bg-amber-800 text-white font-bold py-4 px-8 rounded-xl transition-colors text-lg shadow-md">
